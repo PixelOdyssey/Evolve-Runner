@@ -1,0 +1,425 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Kendry/Project Yudivian
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+63907
+Successfully changed project path to: C:/Users/Kendry/Project Yudivian
+C:/Users/Kendry/Project Yudivian
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6632] Host "[IP] 10.32.32.3 [Port] 0 [Flags] 2 [Guid] 2718783421 [EditorId] 2718783421 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6632] Host "[IP] 10.32.32.3 [Port] 0 [Flags] 2 [Guid] 2718783421 [EditorId] 2718783421 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 98.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kendry/Project Yudivian/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3952 MB
+    Driver:   31.0.15.3129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003647 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (860ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004452 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kendry\Project Yudivian\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kendry\Project Yudivian\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (964ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.3 KB). Loaded Objects now: 4187.
+Memory consumption went from 142.7 MB to 142.5 MB.
+Total: 4.586700 ms (FindLiveObjects: 0.627600 ms CreateObjectMapping: 0.289300 ms MarkObjects: 3.387100 ms  DeleteObjects: 0.281300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1129666.451651 seconds.
+  path: Assets/Futuro/Mapa/ENVIRONMENT/props/banner-arrow.png
+  artifactKey: Guid(ab558f62df7d4f04196e54729740691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Mapa/ENVIRONMENT/props/banner-arrow.png using Guid(ab558f62df7d4f04196e54729740691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c81cc41c396ff5e25bdaf5c2ba0258a') in 0.192487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Futuro/Mapa/ENVIRONMENT/props/banner-small.png
+  artifactKey: Guid(9a352d8d4b8621c4583266205251b685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Mapa/ENVIRONMENT/props/banner-small.png using Guid(9a352d8d4b8621c4583266205251b685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce31d523dfd876939a023e93c151d43') in 0.022872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.628145 seconds.
+  path: Assets/Futuro/Mapa/ENVIRONMENT/props/monitorface/monitor-face-2.png
+  artifactKey: Guid(b4681f66f2573bd46a5b7e07e4b88407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Mapa/ENVIRONMENT/props/monitorface/monitor-face-2.png using Guid(b4681f66f2573bd46a5b7e07e4b88407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4325ab5b3bacd030fa4d1dcdd27a7e65') in 0.028792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Futuro/Mapa/ENVIRONMENT/props/monitorface/monitorface_preview.gif
+  artifactKey: Guid(13858a3a7707c1942ad39bbed9068aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Mapa/ENVIRONMENT/props/monitorface/monitorface_preview.gif using Guid(13858a3a7707c1942ad39bbed9068aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81582a267394f0ef72dbf7fc526010dc') in 0.022502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.989392 seconds.
+  path: Assets/Futuro/Mapa/PNG/layers/far-buildings.png
+  artifactKey: Guid(9def2b93044a6ed4abdd6dd24c98be1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Mapa/PNG/layers/far-buildings.png using Guid(9def2b93044a6ed4abdd6dd24c98be1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976012978f0287ed5c0d9abb59d9879d') in 0.036467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.454732 seconds.
+  path: Assets/Futuro/Mapa/vehicles/v-red.png
+  artifactKey: Guid(704402a65d8de8d4daf24561cafb1bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Mapa/vehicles/v-red.png using Guid(704402a65d8de8d4daf24561cafb1bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbbedbc51d8cc15aa639e7202ab10ac') in 0.022622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Futuro/Mapa/vehicles/v-yellow.png
+  artifactKey: Guid(1a5c7ff0487016342a9d222fc2524186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Mapa/vehicles/v-yellow.png using Guid(1a5c7ff0487016342a9d222fc2524186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8b81d75966773840595ddc24b35733') in 0.019279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.470072 seconds.
+  path: Assets/Futuro/Mapa/Version 2/Layers/foreground-empty.png
+  artifactKey: Guid(212a5cfd23b9a7e48a73a83dae19896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Mapa/Version 2/Layers/foreground-empty.png using Guid(212a5cfd23b9a7e48a73a83dae19896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcc52abe80a57d19690e8cde57c9d4c') in 0.048160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.296756 seconds.
+  path: Assets/Futuro/Personajes/player/back-jump/back-jump-2.png
+  artifactKey: Guid(e6458d8558c000f4fb648ba03309ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/back-jump/back-jump-2.png using Guid(e6458d8558c000f4fb648ba03309ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0114055a14240c4c504153b98fe509ef') in 0.027400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Futuro/Personajes/player/back-jump/back-jump-4.png
+  artifactKey: Guid(b2c8ab113c094274381af4c8c1670237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/back-jump/back-jump-4.png using Guid(b2c8ab113c094274381af4c8c1670237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b593a4a7dea6426cf127f31a982c3d2c') in 0.019151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Futuro/Personajes/player/back-jump/back-jump-preview.gif
+  artifactKey: Guid(1198324873891db4990814463a4617df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/back-jump/back-jump-preview.gif using Guid(1198324873891db4990814463a4617df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0301413dfd9fd053da40cac1926c0e') in 0.021069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.957136 seconds.
+  path: Assets/Futuro/Personajes/player/climb/climb-2.png
+  artifactKey: Guid(2837746c86237c548ae0eb5835a81b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/climb/climb-2.png using Guid(2837746c86237c548ae0eb5835a81b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6ed28f4e15bdcff80689d9b63dc87d') in 0.021831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Futuro/Personajes/player/climb/climb-4.png
+  artifactKey: Guid(5a526b6ee25bc334ca9d32a4f990f230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/climb/climb-4.png using Guid(5a526b6ee25bc334ca9d32a4f990f230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be145260b2e02abc866eb1a7d3b7d323') in 0.026093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.045546 seconds.
+  path: Assets/Futuro/Personajes/player/idle/idle-2.png
+  artifactKey: Guid(d7ee7202216bfec41afe5b30c7a1cf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/idle/idle-2.png using Guid(d7ee7202216bfec41afe5b30c7a1cf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babc1adfd260286dd79a3f46ae249a41') in 0.020860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Futuro/Personajes/player/idle/idle-4.png
+  artifactKey: Guid(c2f7d46b47c23904bb324a655ba89c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/idle/idle-4.png using Guid(c2f7d46b47c23904bb324a655ba89c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609744e237e10c402430bae79315f6b6') in 0.019563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.761711 seconds.
+  path: Assets/Futuro/Personajes/player/walk/walk-2.png
+  artifactKey: Guid(a0a1e1b7b3b0dee4fb3662e4edf19dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/walk/walk-2.png using Guid(a0a1e1b7b3b0dee4fb3662e4edf19dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf578ea27b119b76a332e666cebb5dd2') in 0.027033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Futuro/Personajes/player/walk/walk-5.png
+  artifactKey: Guid(206042f387c88de43bb0f79bc7524a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/walk/walk-5.png using Guid(206042f387c88de43bb0f79bc7524a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed7163593c146c0ad1a9a36421a5fab') in 0.029184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Futuro/Personajes/player/walk/walk-10.png
+  artifactKey: Guid(1633779c081f6ec43a8bce4e5c9f5531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/walk/walk-10.png using Guid(1633779c081f6ec43a8bce4e5c9f5531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac3aaecd2f71c3b854a0b10a86dc171') in 0.021273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Futuro/Personajes/player/walk/walk-7.png
+  artifactKey: Guid(8e4e6511105476d45882137882c2eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/walk/walk-7.png using Guid(8e4e6511105476d45882137882c2eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac21547443adcbd51f08e2b4934fbea') in 0.020580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Futuro/Personajes/player/walk/walk-8.png
+  artifactKey: Guid(2b9ac08513bd3a543b629a742c20e1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/walk/walk-8.png using Guid(2b9ac08513bd3a543b629a742c20e1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52e24daaa9396378554b2ca1dc48269') in 0.017831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Futuro/Personajes/player/walk/walk-preview.gif
+  artifactKey: Guid(b4f6007d6798fed43a0cca6485d95e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuro/Personajes/player/walk/walk-preview.gif using Guid(b4f6007d6798fed43a0cca6485d95e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f061018099aac0109200a756377a54c') in 0.015305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.115958 seconds.
+  path: Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_2.png
+  artifactKey: Guid(21c1d5972c8e7f448a777582acdd0199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_2.png using Guid(21c1d5972c8e7f448a777582acdd0199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad7559ddf7eb499791567dda0a8d94c') in 0.023856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_11.png
+  artifactKey: Guid(e717df209b8fff74cac59d59bf39a453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_11.png using Guid(e717df209b8fff74cac59d59bf39a453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b91b1e086fda319851704afda8ddfe') in 0.020649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_12.png
+  artifactKey: Guid(3a43ce4d1587afe4e8e4b490032fe33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_12.png using Guid(3a43ce4d1587afe4e8e4b490032fe33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f711259a5739c31e615284ca3dee032d') in 0.024559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_5.png
+  artifactKey: Guid(ead58bfb61fbe5e459aa0d3db9cac9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_5.png using Guid(ead58bfb61fbe5e459aa0d3db9cac9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e309d9599a666719bb2c853144a0e60') in 0.021432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_14.png
+  artifactKey: Guid(a415d421cfd1b2a42b8c098c286f4dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_14.png using Guid(a415d421cfd1b2a42b8c098c286f4dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a4d6579fa990774fa38feb2538528b') in 0.018464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_16.png
+  artifactKey: Guid(ce8c4b5d3dc1c894c8f1d2dd313b690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Frost_Guardian_FREE_v1.0/PNG files/death/death_16.png using Guid(ce8c4b5d3dc1c894c8f1d2dd313b690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8976f2f029ea3a50800fade7c22b1812') in 0.017878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.052435 seconds.
+  path: Assets/Enemigos/Mecha-stone Golem 0.1/weapon PNG/arm_projectile_glowing.png
+  artifactKey: Guid(8bcbebc44b10dc44aac5da3e994f6964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Mecha-stone Golem 0.1/weapon PNG/arm_projectile_glowing.png using Guid(8bcbebc44b10dc44aac5da3e994f6964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26119f279fcd0ea541722bbe861900a') in 0.038559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.923608 seconds.
+  path: Assets/Enemigos/Robot/drone/drone-2.png
+  artifactKey: Guid(34d92372b1dbbae44a9f2011f5e1a574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/drone/drone-2.png using Guid(34d92372b1dbbae44a9f2011f5e1a574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be019a61cd2766c392f333883df5bf91') in 0.023290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Enemigos/Robot/drone/drone-4.png
+  artifactKey: Guid(5010d90e2d1e0f745bccb9c4658ea006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/drone/drone-4.png using Guid(5010d90e2d1e0f745bccb9c4658ea006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a44a241fd16875cd93e88f5af1ea14') in 0.017762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.211057 seconds.
+  path: Assets/Enemigos/Robot/enemy-explosion/enemy-explosion-2.png
+  artifactKey: Guid(f0f19591115d61e49a4fea10074c5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/enemy-explosion/enemy-explosion-2.png using Guid(f0f19591115d61e49a4fea10074c5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea66315d003d6364466139a63a32908') in 0.028178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enemigos/Robot/enemy-explosion/enemy-explosion-5.png
+  artifactKey: Guid(d9c2b5523d51aaa4bb4dee6540ab707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/enemy-explosion/enemy-explosion-5.png using Guid(d9c2b5523d51aaa4bb4dee6540ab707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8f4d4c89757d82d6873897bbf67567') in 0.020265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Enemigos/Robot/enemy-explosion/enemy-explosion-preview.gif
+  artifactKey: Guid(fc4b2b03ca2865c40b9913d86485ab7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/enemy-explosion/enemy-explosion-preview.gif using Guid(fc4b2b03ca2865c40b9913d86485ab7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29647244d689afd4866e7c2018403987') in 0.017622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.728882 seconds.
+  path: Assets/Enemigos/Robot/shot/shot-2.png
+  artifactKey: Guid(b27d19d171f1c1e4eb6058fb032a9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/shot/shot-2.png using Guid(b27d19d171f1c1e4eb6058fb032a9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caa3ef5d2ae95af2123844e0cd08855') in 0.021687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Enemigos/Robot/shot/shot-preview.gif
+  artifactKey: Guid(b35d7ba28de79f647b302b1457b5ecfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/shot/shot-preview.gif using Guid(b35d7ba28de79f647b302b1457b5ecfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be68b953a75c36f9ab729ae288944e95') in 0.015721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.787063 seconds.
+  path: Assets/Enemigos/Robot/shot-hit/shot-hit-2.png
+  artifactKey: Guid(1b95ad7e647be0b4fa8b1f78006c14ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/shot-hit/shot-hit-2.png using Guid(1b95ad7e647be0b4fa8b1f78006c14ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095232ca1db7c0abdc8af77901ee3795') in 0.023526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.607743 seconds.
+  path: Assets/Enemigos/Robot/turret/turret-2.png
+  artifactKey: Guid(401f42319f6d2e749987189aad388c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/turret/turret-2.png using Guid(401f42319f6d2e749987189aad388c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9195da801f540d6c67c68f70586141') in 0.024014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Enemigos/Robot/turret/turret-4.png
+  artifactKey: Guid(aeca4f484232538478bb57580c96a8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/turret/turret-4.png using Guid(aeca4f484232538478bb57580c96a8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c093f856db3d6517c8ccd2b5d3669f') in 0.022319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Enemigos/Robot/turret/turret-5.png
+  artifactKey: Guid(40a948dbb13f97f428d4cef9dd3fdc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/Robot/turret/turret-5.png using Guid(40a948dbb13f97f428d4cef9dd3fdc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e13092a2a95ccd5e4e61e6208d1588') in 0.020157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.918525 seconds.
+  path: Assets/Enemigos/soldier/Dead.png
+  artifactKey: Guid(79714013ac14e0147be545ca18dcdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/soldier/Dead.png using Guid(79714013ac14e0147be545ca18dcdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972704467408dd8bd48818b75313ee8') in 0.031552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enemigos/soldier/Run.png
+  artifactKey: Guid(2240e4f40180d5746830c81198e583b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/soldier/Run.png using Guid(2240e4f40180d5746830c81198e583b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e112fbb96e221b203b75d299bc5122f3') in 0.033600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Enemigos/soldier/Walk.png
+  artifactKey: Guid(f83909e7022af82468fbba4b7635cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/soldier/Walk.png using Guid(f83909e7022af82468fbba4b7635cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36f5ea0571aef949384e9b2fd2f4b2e') in 0.028528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Enemigos/soldier/Smoke.png
+  artifactKey: Guid(d7b7c670028fb8e45967b28b05efc0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemigos/soldier/Smoke.png using Guid(d7b7c670028fb8e45967b28b05efc0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a1f98acc4b33b67050c04861f5e23') in 0.038293 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
